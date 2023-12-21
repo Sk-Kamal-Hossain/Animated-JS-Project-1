@@ -413,36 +413,33 @@ function locomotive() {
     start: `top top`,
     end: `600% top`,
   });
-
-  gsap.to("#page1", {
+  
+  
+  
+  gsap.to("#page1",{
     scrollTrigger:{
-        trigger: '#page1',
-        start: 'top top',
-        end: 'bottom top',
-        marker: true,
-        pin: true,
-        scroller: '#main'
+      trigger:`#page1`,
+      start:`top top`,
+      end:`bottom top`,
+      pin:true,
+      scroller:`#main`
     }
-});
-
-gsap.to("#page2", {
+  })
+  gsap.to("#page2",{
     scrollTrigger:{
-        trigger: '#page2',
-        start: 'top top',
-        end: 'bottom top',
-        marker: true,
-        pin: true,
-        scroller: '#main'
+      trigger:`#page2`,
+      start:`top top`,
+      end:`bottom top`,
+      pin:true,
+      scroller:`#main`
     }
-});
-
-gsap.to("#page3", {
+  })
+  gsap.to("#page3",{
     scrollTrigger:{
-        trigger: '#page3',
-        start: 'top top',
-        end: 'bottom top',
-        marker: true,
-        pin: true,
-        scroller: '#main'
+      trigger:`#page3`,
+      start:`top top`,
+      end:`bottom top`,
+      pin:true,
+      scroller:`#main`
     }
-});
+  })
